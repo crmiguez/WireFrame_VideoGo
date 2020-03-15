@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>VIDEO GO. | Eres lo que ves</title>
+
+<meta name="description" content="Web de la práctica 7 de SSI">
+<meta name="autor" content="Candida Rodriguez Miguez">
+<meta name="keywords" content="video, go, usabilidad, ux, busqueda, video">
+<meta name="robots" content="index,follow" />
+<meta name="viewport" content="width=device-width, initialscale=1.0" />
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="css/fonts.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/jquery.jpanel.css" type="text/css" media="screen">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+<script type="text/javascript" src="js/script_login.js"></script>
+<script type="text/javascript" src="jquery/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="jquery/jquery-1.7.1.min.js"></script>
+
+
+
+</head>
+<body>
+    <div id="logoVG"><a href="index.html"><img src="imagenes/logo.png" alt="VIDEO GO." width="210" height="88"></a>
+
+      <div id="login">
+          <a href="#" id="showlogin">
+            Login
+            <span id="triangle_down">&#9660;</span>
+            <span id="triangle_up" style="display:none;">&#9650;</span>	
+          </a>
+              
+          <div id="loginpanel" style="display:none;">
+            <form action="#" method="post">
+                <span class="fa fa-user">Usuario</span><input type="text" id="username" />
+                <span class="fa fa-lock">Contraseña</span><input type="password" id="password" />
+              <button type="submit" id="submit">Entrar</button>					
+            </form>
+          </div>
+        </div>
+
+    </div>
+    <div id="busqueda">
+        <div class="container">
+            <span class="icono"><i class="fa fa-search"></i></span>
+            <input type="search" id="buscar" placeholder="Buscar vídeo..." />
+        </div>
+    </div>
+
+    <div id="resultado-busqueda">
+        <h2>Resultado de la búsqueda: 1-15 de 250 </h2>
+        <div class= item-1>
+            <div class="miniatura"><a href="video_view.html"><img src="imagenes/download.png" alt="Video 1." width="210" height="88"></a></div>
+            <div class="descripcion"><a href="video_view.html">Cómo hacer una pulsera estilo budista</a></div>
+            <div class="userchannel">
+                <span class="fa fa-user"></span>
+                <a class="nameuser" href="">Rincón espiritual</a>
+            </div>
+
+            <div class="info-resultado">
+                <span class="fa fa-eye">350.000</span>
+                <span class="fa fa-heart">75 %</span>
+            </div>
+  
+        </div>
+        <div class= item-2>
+            <div class="miniatura"><a href="video_view.html"><img src="imagenes/download.png" alt="Video 1." width="210" height="88"></a></div>
+            <div class="descripcion"><a href="video_view.html">Primeros pasos de barchata</a></div>
+            <div class="userchannel">
+                <span class="fa fa-user"></span>
+                <a class="nameuser" href="">Baile en casa</a>
+            </div>
+
+            <div class="info-resultado">
+                <span class="fa fa-eye">350.000</span>
+                <span class="fa fa-heart">85 %</span>
+            </div>
+  
+        </div>
+        <div class= item-3>
+            <div class="miniatura"><a href="video_view.html"><img src="imagenes/download.png" alt="Video 1." width="210" height="88"></a></div>
+            <div class="descripcion"><a href="video_view.html">Cómo hacer tiramisú bajo en azúcar </a></div>
+            <div class="userchannel">
+                <span class="fa fa-user"></span>
+                <a class="nameuser" href="">Cocina saludable</a>
+            </div>
+            <div class="info-resultado">
+                <span class="fa fa-eye">350.000</span>
+                <span class="fa fa-heart">100 %</span>
+            </div>
+        </div>
+    </div>
+</body>

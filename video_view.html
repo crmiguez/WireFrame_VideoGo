@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>VIDEO GO. | Primeros pasos de bachata</title>
+
+<meta name="description" content="Web de la práctica 7 de SSI">
+<meta name="autor" content="Candida Rodriguez Miguez">
+<meta name="keywords" content="video, go, usabilidad, ux, busqueda, video, pasos, bachata">
+<meta name="robots" content="index,follow" />
+<meta name="viewport" content="width=device-width, initialscale=1.0" />
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="css/fonts.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/jquery.jpanel.css" type="text/css" media="screen">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+<script type="text/javascript" src="js/script_video.js"></script>
+<script type="text/javascript" src="jquery/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="jquery/jquery-1.7.1.min.js"></script>
+
+</head>
+<body>
+        <div id="logoVG"><a href="index.html"><img src="imagenes/logo.png" alt="VIDEO GO." width="210" height="88"></a></div>
+        <div id="menu">
+            <ul>
+                <li><a href="#login" class="btnSeccion">LOGIN</a></li>
+                <li><a href="#pago" class="btnSeccion">PAGO/SUSCRIPCIÓN</a></li>
+                <li><a href="#mi_cuenta" class="btnSeccion">MI CUENTA</a></li>
+                <li><a href="#mis_videos" class="btnSeccion">MIS VIDEOS</a></li>
+                <li><a href="#listas" class="btnSeccion">LISTAS</a></li>
+                <li><a href="#cerrar_sesion" class="btnSeccion">CERRAR SESIÓN</a></li>
+            </ul>  
+        </div>   
+           
+        <h1>Primeros pasos de bachata</h1>
+          <div id ="reproductor">
+              <video id="video-background" preload autoplay loop controls>
+                  <source src="pasosbachata.mp4"  type="video/mp4">
+                    <source src="pasosbachata.webm" type="video/webm">
+                    <source src="pasosbachata.ogv"  type="video/ogg">
+              </video>
+              <div class="opciones-video">
+                  <span class="fab fa-facebook-square"></span>
+                  <span class="fab fa-twitter-square"></span>
+                  <span class="fab fa-instagram"></span>
+                  <span class="fab fa-whatsapp-square"></span>
+                  <span class="fas fa-plus-square"></span>
+              </div>
+          </div>
+
+          <div id="videos-relacionados">
+              <h2>Videos relacionados</h2>
+              <div class= item-4>
+                  <div class="miniatura"><a href="video_view.html"><img src="imagenes/download.png" alt="Video 1." width="210" height="88"></a></div>
+                  <div class="descripcion"><a href="video_view.html">Cómo hacer una pulsera estilo budista</a></div>
+                  <div class="userchannel">
+                      <span class="fa fa-user"></span>
+                      <a class="nameuser" href="">Rincón espiritual</a>
+                  </div>
+      
+                  <div class="info-resultado">
+                      <span class="fa fa-eye">350.000</span>
+                      <span class="fa fa-heart">75 %</span>
+                  </div>
+              </div>
+    
+              <div class= item-5>
+                  <div class="miniatura"><a href="video_view.html"><img src="imagenes/download.png" alt="Video 1." width="210" height="88"></a></div>
+                  <div class="descripcion"><a href="video_view.html">Cómo hacer una pulsera estilo budista</a></div>
+                  <div class="userchannel">
+                      <span class="fa fa-user"></span>
+                      <a class="nameuser" href="">Rincón espiritual</a>
+                  </div>
+      
+                  <div class="info-resultado">
+                      <span class="fa fa-eye">350.000</span>
+                      <span class="fa fa-heart">75 %</span>
+                  </div>
+        
+              </div>
+            </div>
+        
+        <div id="videos-autor">
+            <h2>Más vídeos de ...</h2>
+            <div class= item-6>
+                <div class="miniatura"><a href="video_view.html"><img src="imagenes/download.png" alt="Video 1." width="210" height="88"></a></div>
+                <div class="descripcion"><a href="video_view.html">Primeros pasos de barchata</a></div>
+                <div class="userchannel">
+                    <span class="fa fa-user"></span>
+                    <a class="nameuser" href="">Baile en casa</a>
+                </div>
+    
+                <div class="info-resultado">
+                    <span class="fa fa-eye">350.000</span>
+                    <span class="fa fa-heart">85 %</span>
+                </div>
+        </div>
+      </div>
+        <div style="clear:both"></div>
+        <div id="comentarios">
+            <h2>Comentarios</h2>
+
+            <div class="message_request">
+                <p class="message_request_text">Hola</p>
+                <p class="message_date_request"></p>
+              </div>
+
+            <div class="message_response">
+                <p class="message_response_text">Hola</p>
+                <p class="message_date_response"></p>
+            </div>
+
+            <div class="comentar">
+                <h2>Deja tu comentario</h2>
+                <form action="" method="post" name="FormComentar">
+                    <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+                    <textarea placeholder="Tu comentario...." tabindex="5" required></textarea>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+                </form>
+            </div>
+
+        </div>
+</body>

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* Montserrat */
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('../fonts/Montserrat/Montserrat-Bold.ttf') format('truetype'),
+         url('../fonts/Montserrat/Montserrat-Light.ttf') format('truetype'),
+         url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Noto Serif */
+
+@font-face {
+    font-family: 'Noto Serif', serif;
+    src: url('../fonts/Noto_Serif/NotoSerif-Bold.ttf') format('truetype'),
+         url('../fonts/Noto_Serif/NotoSerif-Light.ttf') format('truetype'),
+         url('../fonts/Noto_Serif/NotoSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Roboto */
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype'),
+         url('../fonts/Roboto/Roboto-Light.ttf') format('truetype'),
+         url('../fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype'),
+         url('../fonts/Roboto/Roboto-Medium.ttf') format('truetype'),
+         url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
